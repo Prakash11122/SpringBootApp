@@ -1,0 +1,12 @@
+package com.example.demo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessageService {
+	
+	public void getMsg() {
+		System.out.println("my fist Spring Boot Application");
+	}
+
+}
