@@ -1,0 +1,24 @@
+my:
+  app:
+    driver: prakash-dev
+    url: url-dev
+    
+---
+# this is qa profile
+spring:
+   profiles: qa    
+
+my:
+  app:
+    driver: prakash-qa
+    url: url-qa
+   
+---
+#this is prod profile
+spring:
+   profiles: prod  
+
+my:
+  app:
+    driver: prakash-prod
+    url: url-prod
